@@ -37,8 +37,8 @@ def csvreader(ldapnome, ldapsobrenome, ldaplogin, ldapmail):
 print csvreader(ldapnome, ldapsobrenome, ldaplogin, ldapmail)
 
 def sendmail(maildest, mailsubject, mailmsg ): 
-    sender  = 'pytestcoding@gmail.com'
-    senderpass  = 'pypypy666'
+    sender  = 'mail@mail.com'
+    senderpass  = 'password'
     to = maildest
     subject = mailsubject
     msg = mailmsg
@@ -58,8 +58,8 @@ def sendmail(maildest, mailsubject, mailmsg ):
 
 msg = 'seu login e: ',ldaplogin , 'e sua senha e : ', password_generator()
 print msg
-sendmail('fernando.wfvm@gmail.com', 'teste', msg)
+sendmail(ldapmail, 'teste', msg)
 
  
 
-print "All Done"
+print "Finalizado"
